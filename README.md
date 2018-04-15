@@ -1,5 +1,5 @@
 # MyResearch
-[StyleNet](http://hi.cs.waseda.ac.jp/~esimo/publications/SimoSerraCVPR2016.pdf)の手法を改良し，WEBで収集できるweakly-labeledな画像を利用したCNNの新しい学習法について提案する。この手法によって，ファッションスタイルのクラス分類におけるstate-of-the-artの75.6%を上回る87.5%の精度を達成した。
+[StyleNet](http://hi.cs.waseda.ac.jp/~esimo/publications/SimoSerraCVPR2016.pdf)の手法を改良し，WEBで収集できるweakly-labeledな画像を利用したCNNの新しい学習法について提案する。
 
 # Codes
 - `train.py`: train the model on CPU.
@@ -10,8 +10,6 @@
 
 # Experimental Result
 ## Classification Task
-CNN学習の100回ごとに，Hipster Warsデータセットのクラス分類を行う。100回ごとのクラス分類の精度は次のように推移した。実験は[論文](http://hi.cs.waseda.ac.jp/~esimo/publications/SimoSerraCVPR2016.pdf)と同じ条件のもとで行った。
-![result](https://i.imgur.com/pGdCfiE.png)
-
+実験実装中
 ## Predicting Fashionability
-実験中
+実験実装中
