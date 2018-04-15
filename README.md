@@ -5,7 +5,7 @@
 - `train.py`: train the model on CPU.
 - `load_model.py`: load the model
 - `image_sampling.py`: code related to image sampling.
-- `stylenet.t7`: learned parameters of StyleNet which needs to be converted to PyTorch model.
+- `stylenet.t7`: StyleNet model which should be converted to PyTorch model.
 - `convert_torch.py`: convert Torch7 model to PyTorch.
 
 # Experimental Result
