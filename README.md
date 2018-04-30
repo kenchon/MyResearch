@@ -10,6 +10,10 @@
 
 # Experimental Result
 ## Classification Task
-実験実装中
+Comparison of **StyleNet Ranking**(minimizing triplet loss) and **Ours Ranking**.
+
+accuracy
+StyleNet Ranking: 74.6%
+Ours Ranking: 75.1%
 ## Predicting Fashionability
 実験実装中
