@@ -1,5 +1,5 @@
 # MyResearch
-[StyleNet](http://hi.cs.waseda.ac.jp/~esimo/publications/SimoSerraCVPR2016.pdf)の手法を改良し，WEBで収集できるweakly-labeledな画像を利用したCNNの新しい学習法について提案する。
+[StyleNet](http://hi.cs.waseda.ac.jp/~esimo/publications/SimoSerraCVPR2016.pdf)のアーキテクチャをベースに、WEBで収集できる弱ラベル付き画像を利用したCNNの新しい学習法について提案する。
 
 # Codes
 - `train.py`: train the model on CPU.
@@ -14,7 +14,7 @@ Comparison of **StyleNet Ranking**(minimizing triplet loss) and **Ours Ranking**
 
 ### Accuracy Result
 - StyleNet Ranking: 74.6%
-- Ours Ranking: 75.1%
+- Ours Ranking: 75.8%
 
 ## Predicting Fashionability
 実験実装中
