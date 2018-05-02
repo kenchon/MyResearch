@@ -16,7 +16,7 @@ Comparison of **StyleNet Ranking**(minimizing triplet loss) and **Ours Ranking**
 - StyleNet Ranking: 74.6%
 - Ours Ranking: 75.8%
 
-[result](https://i.imgur.com/Sic3wec.png)
+![result](https://i.imgur.com/Sic3wec.png)
 
 ## Predicting Fashionability
 実験実装中
