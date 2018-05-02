@@ -14,7 +14,7 @@ Comparison of **StyleNet Ranking**(minimizing triplet loss) and **Ours Ranking**
 
 ### Accuracy Result
 - StyleNet Ranking: 74.6%
-- Ours Ranking: 75.8%
+- Ours Ranking: 76.4%
 
 ![result](https://i.imgur.com/Sic3wec.png)
 
