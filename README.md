@@ -1,5 +1,5 @@
 # MyResearch
-[StyleNet](http://hi.cs.waseda.ac.jp/~esimo/publications/SimoSerraCVPR2016.pdf)のアーキテクチャをベースに、WEBで収集できる弱ラベル付き画像を利用したCNNの新しい学習法について提案する。
+We propose new method for learning weakly-labeled data based on the [StyleNet](http://hi.cs.waseda.ac.jp/~esimo/publications/SimoSerraCVPR2016.pdf) architecture.
 
 # Codes
 - `train.py`: train the model on CPU.
@@ -10,10 +10,11 @@
 
 # Experimental Result
 ## Classification Task
-Comparison of **StyleNet Ranking**(minimizing triplet loss) and **Ours Ranking**.
+Comparison of former method:
 
 ### Accuracy Result
 - StyleNet Ranking: 74.6%
+- StyleNet Joint: 75.9%
 - Ours Ranking: 76.4%
 
 ![result](https://i.imgur.com/Sic3wec.png)
