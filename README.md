@@ -10,7 +10,7 @@ We propose new method for learning weakly-labeled data based on the [StyleNet](h
 
 # Experimental Result
 ## Classification Task
-Comparison of former method:
+We evaluate our model by classification task on Hipster Wars dataset which includes 5 class and 1900 images.
 
 ### Accuracy Result
 - StyleNet Ranking: 74.6%
