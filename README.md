@@ -13,11 +13,11 @@ We propose new method for learning weakly-labeled data based on the [StyleNet](h
 We evaluate our model by classification task on Hipster Wars dataset which includes 5 class and 1900 images.
 
 ### Accuracy Result
-- StyleNet Ranking: 74.6%
-- StyleNet Joint: 75.9%
-- Ours Ranking: 76.4%
+- StyleNet Joint:       74.93 ± 0.45% (We're unable to reproduce the result of 75.9% in the paper)
+- Ours Ranking(>0.75):  75.30 ± 0.46%
+- Ours Ranking(>0.89):  76.14 ± 0.47%
 
-![result](https://i.imgur.com/Sic3wec.png)
+![result](https://i.imgur.com/c4CU2wV.png)
 
 ## Predicting Fashionability
 実験実装中
