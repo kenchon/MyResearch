@@ -14,7 +14,7 @@ We evaluate our model by classification task on Hipster Wars dataset which inclu
 
 ### Accuracy Result
 - StyleNet Joint:       74.93 ± 0.45% (We're unable to reproduce the result of 75.9% in the paper)
-- Ours Ranking(>0.75):  75.30 ± 0.46%
+- Ours Ranking(>0.83):  75.30 ± 0.46%
 - Ours Ranking(>0.89):  76.14 ± 0.47%
 
 ![result](https://i.imgur.com/c4CU2wV.png)
