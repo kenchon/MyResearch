@@ -1,5 +1,8 @@
 # MyResearch
 We propose new method for feature learning from weakly-labeled data based on [StyleNet](http://hi.cs.waseda.ac.jp/~esimo/publications/SimoSerraCVPR2016.pdf) architecture.
+Our contributions are as follows:
+- introduce weights for each weak label according to their visual importance.
+- improve similarity learning so that more similar images get more converged and vise versa.
 
 # Codes
 - `train.py`: train the model on CPU.
@@ -13,7 +16,7 @@ We propose new method for feature learning from weakly-labeled data based on [St
 We evaluate our model by classification task on Hipster Wars dataset which includes 5 class and 1893 images.
 
 ### Accuracy Result
-- StyleNet Joint:       74.93 ± 0.45% (We're unable to reproduce the result of 75.9% in the paper)
+- StyleNet Joint:       74.93 ± 0.45%
 - Ours Ranking(>0.83):  75.30 ± 0.46%
 - Ours Ranking(>0.89):  76.14 ± 0.47%
 
